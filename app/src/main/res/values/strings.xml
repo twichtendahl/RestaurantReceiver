@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Restaurant-Receiver-3</string>
+    <string name="thank_you">Thank you for your order.</string>
+    <string name="confirmation_code">confirmation code</string>
+    <string name="order_id">Order ID:</string>
+    <string name="credit_card">Credit Card:</string>
+    <string name="order_received">Order Received</string>
+    <string name="credit_card_number">credit card number</string>
+    <string name="csc">CSC:</string>
+    <string name="sample_csc">000</string>
+    <string name="expires">Expires:</string>
+    <string name="mm_yy">mm/yy</string>
+    <string name="send_failed">Send failed.</string>
+</resources>
