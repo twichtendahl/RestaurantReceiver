@@ -42,21 +42,21 @@ public class MainActivity extends AppCompatActivity {
             String orderDetail = paymentAsString.substring(0, paymentAsString.indexOf('*'));
             String paymentDetail = paymentAsString.substring(paymentAsString.indexOf('*') + 1);
 
-            ArrayList<String> details = new ArrayList<>();
-            for(int i = 0; i < paymentDetail.length(); i++) {
-                String word = "";
-                char c = paymentDetail.charAt(i);
-                if(c != ' ') {
-                    word += c;
-                } else {
-                    details.add(word);
-                }
-            }
-
-            confirmationCode.setText(details.get(7));
-            creditCardConfirm.setText(details.get(2));
-            cscConfirm.setText(details.get(3));
-            expiryConfirm.setText(String.format("%s/%s", details.get(4), details.get(5)));
+//            ArrayList<String> details = new ArrayList<>();
+//            for(int i = 0; i < paymentDetail.length(); i++) {
+//                String word = "";
+//                char c = paymentDetail.charAt(i);
+//                if(c != ' ') {
+//                    word += c;
+//                } else {
+//                    details.add(word);
+//                }
+//            }
+//
+//            confirmationCode.setText(details.get(7));
+//            creditCardConfirm.setText(details.get(2));
+//            cscConfirm.setText(details.get(3));
+//            expiryConfirm.setText(String.format("%s/%s", details.get(4), details.get(5)));
 
             test1.setText(orderDetail);
             test2.setText(paymentDetail);
